@@ -15,6 +15,12 @@ export const Logo = styled.div`
   font-weight: bold;
 `;
 
+export const Div = styled.div`
+  border: 2px solid;
+  border-image: linear-gradient(to right, #ff0000, #00ff00) 1;
+  border-radius: 10px;
+`;
+
 export const Buttons = styled.div`
   display: flex;
   align-items: center;
